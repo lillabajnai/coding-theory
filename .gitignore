@@ -1,0 +1,18 @@
+# Ignore .idea and .venv in kodolas_1 and kodolas_3
+/kodolas_1/.idea/
+/kodolas_1/.venv/
+/kodolas_3/.idea/
+/kodolas_3/.venv/
+
+# Ignore common Python virtual environment folders
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and temporary files
+*.log
+*.tmp
